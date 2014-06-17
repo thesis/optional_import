@@ -1,6 +1,8 @@
 ![Build status](https://circleci.com/gh/cardforcoin/optional_import.png?circle-token=d834124e03717f6619b867f13c8a85f254298df5)
 
-# `optional_import`: Optional imports in Python
+# optional_import
+
+Optional imports in Python
 
 ## Usage
 
