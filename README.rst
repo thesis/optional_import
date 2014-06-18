@@ -6,6 +6,8 @@ optional_import
 
 Optional imports in Python
 
+.. pypi - Everything below this line goes into the description for PyPI.
+
 Usage
 -----
 
