@@ -5,7 +5,7 @@ from distutils.core import setup
 setup(
     name='optional_import',
     version='1.0',
-    py_modules='optional_import',
+    py_modules=['optional_import'],
     description='Optional imports in Python',
     long_description=open(join(dirname(__file__), 'README.md')).read(),
     author='Chris Martin',
