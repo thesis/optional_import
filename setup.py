@@ -10,7 +10,7 @@ def long_description():
 
 setup(
     name='optional_import',
-    version='1.0',
+    version='1.1',
     py_modules=['optional_import'],
     description='Import something if it exists.',
     long_description=long_description(),
