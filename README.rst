@@ -9,11 +9,14 @@ Optional imports in Python
 Usage
 -----
 
-This library has one function:
+This library contains only the context manager ``optional_import``:
 
 .. code:: python
 
     from optional_import import optional_import
+
+An import within the ``optional_import`` context fails silently if the
+import does not exist.
 
 Example: Optionally importing a module ``foo``
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
