@@ -15,4 +15,13 @@ setup(
     author_email='ch.martin@gmail.com',
     url='https://github.com/cardforcoin/optional_import',
     license='MIT',
+    test_suite='nose.collector',
+    tests_require=[
+        'nose==1.3.3',
+        'sure==1.2.7',
+        # workaround for https://github.com/gabrielfalcao/sure/pull/60
+        # undeclared requirements of `sure`
+        'mock',
+        'six',
+    ],
 )
