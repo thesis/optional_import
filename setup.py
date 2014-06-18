@@ -1,5 +1,8 @@
+from ez_setup import use_setuptools
+use_setuptools()
+
 from os.path import join, dirname
-from distutils.core import setup
+from setuptools import setup
 
 
 setup(
