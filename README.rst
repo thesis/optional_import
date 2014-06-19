@@ -74,7 +74,7 @@ Optional imports can almost be achieved simply by catching ``ImportError``:
 
 But this approach introduces a problem: If ``foo`` exists but raises
 ``ImportError``, we want that error to be raised, but instead it is
-swallowed by the ``except`` clause. So
+swallowed by the ``except`` clause.
 
 With ``optional_import``, the error is raised as desired. In the following
 example, the ``bad`` module tries to import a nonexistent package ``unicorns``:
