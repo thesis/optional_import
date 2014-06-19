@@ -29,7 +29,7 @@ A successful import works as usual:
     <type 'module'>
 
 If the import does not exist, ``optional_import`` suppresses the
-`ImportError` that would otherwise be raised.
+``ImportError`` that would otherwise be raised.
 
 .. code:: python
 
@@ -63,7 +63,7 @@ put optional site-specific settings in ``settings_local.py``, and import
 Why not just catch ``ImportError``?
 -----------------------------------
 
-Optional imports can almost be achieved simply by catching `ImportError`:
+Optional imports can almost be achieved simply by catching ``ImportError``:
 
 .. code:: python
 
@@ -76,8 +76,8 @@ But this approach introduces a problem: If ``foo`` exists but raises
 ``ImportError``, we want that error to be raised, but instead it is
 swallowed by the ``except`` clause. So
 
-With `optional_import`, the error is raised as desired. In the following
-example, the `bad` module tries to import a nonexistent package `unicorns`:
+With ``optional_import``, the error is raised as desired. In the following
+example, the ``bad`` module tries to import a nonexistent package ``unicorns``:
 
 .. code:: python
 
